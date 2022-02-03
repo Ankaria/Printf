@@ -17,7 +17,7 @@
 # include <stdlib.h>
 
 int   ft_printf(const char *str, ...);
-void  ft_parser(char *c, va_list ap, int	*i);
+void  ft_parser(char *c, va_list ap, int *i);
 void  ft_putchar(char c, int *i);
 void  ft_p(unsigned long long int n, int *i);
 void  ft_u(unsigned int n, int *i);
